@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+  }
+
+  .lavender,
+  .lightgreen {
+      display: none;
+  }
+
+  
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    .lightgreen {
+        display: block;
+    }
+    
+    .lightblue,
+    .lavender {
+      display: none;
+    }
+
+  }
+  
+  @media screen and (min-width: 768px) {
+    body {
+      background-color: lavender;
+    }
+
+    .lavender {
+        display: block;
+    }
+
+    .lightblue,
+    .lightgreen {
+      display: none;
+   }
+  }
