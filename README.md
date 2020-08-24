@@ -4,7 +4,7 @@ This Repository is for describing the media queries, a CSS feature to handle the
 
 ## Live Demo
 
--[Home-Page]()
+-[Live Demo](https://raw.githack.com/LamiaSristy/media-queries-exercise/master/index.html)
 
 ## Built With
 
